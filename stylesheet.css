@@ -120,12 +120,10 @@ html,body{
 
 
 }
-.black{
-  background: black;
-}
 
 
-.dot:nth-child(1){ top: 0;}
+
+.dot:nth-child(1){ top: 0;background:black;}
 .dot:nth-child(2){ top: 40px; }
 .dot:nth-child(3){ top: 80px; }
 .dot:nth-child(4){ top: 120px; }
