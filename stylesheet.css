@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+       font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+
+}
+
+html,body{
+    height:100%;
+    width:100%;
+     position: relative;
+     padding: 40px;
+}
+
+.content h1{
+    font-size: 200px;
+    font-weight:500;
+    letter-spacing: -8px;
+}
+.content h6{
+    position: absolute;
+    z-index: 10;
+    left: 20px;
+    top: 10%;
+    letter-spacing: 4px;
+    font-weight: 795;
+    font-size: 12px;
+}
+.content p{
+     position: absolute;
+    z-index: 10;
+    font-weight: 400;
+    left: 20px;
+    top: 250px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.6;
+    word-spacing: 1px;
+    
+}
+
+.content{
+    position:absolute;
+    
+    top: 18%;
+    left: 60px;
+}
+.left-card{
+    background-color: #f5c400;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 45px;
+    text-align: left;
+
+}
+.right-card{
+    background-color: #f3e4b5;
+    top: 0;
+    bottom: 0;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+      
+
+}
+.image{
+    position: absolute;
+    left: 69%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    height: 700px;
+    width: 700px;
+}
+
+#logo{
+    position:absolute;
+    z-index: 10;
+   
+    width:7%;
+    height:4%;
+
+
+}
+
+
+
+
+.container{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+
+  transform: translateY(-50%);
+}
+
+.dot{
+  position: absolute;
+  
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background:#F6D43B;
+  top: 0;
+  right: 0;
+
+
+}
+.black{
+  background: black;
+}
+
+
+.dot:nth-child(1){ top: 0;}
+.dot:nth-child(2){ top: 40px; }
+.dot:nth-child(3){ top: 80px; }
+.dot:nth-child(4){ top: 120px; }
+.dot:nth-child(5){ top: 160px; }
+#symbol{
+    position: absolute;
+    z-index: 15;
+    height: 80px;
+    width: 70px;
+    top: 0;
+    right: 25px;
+}
+#pokeball{
+    position: absolute;
+    z-index: 90;
+    left: 40px;
+    bottom: 0;
+    height: 200px;
+    width: 280px;
+    opacity: 0.4;
+}
+
+
+
+
